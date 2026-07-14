@@ -1,0 +1,93 @@
+body{
+    background-color: #e0ba81;
+    font-family: verdana;
+    background:     linear-gradient(rgba(220,185,130,0.35), rgba(220,185,130,0.35)),
+    url("../Images/Background - Copy.png");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: #664303;
+    font-size: 50px;
+    text-align: center;
+    font-family: Zhoro;
+}
+h2{
+    color: #996a13;
+    font-size: 40px;
+    text-align: Left;
+    font-family: Zhoro;
+    underline: underline;
+}
+.Subtitle{
+    color: #996a13;
+    font-size: 35px;
+    text-align: center;
+    font-family: visby;
+}
+hr{
+    border: 1px solid #664303;
+}
+a{
+    color: #472f02;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 30px;
+}
+a:hover{
+    color: #422b00;
+    text-decoration: underline;
+}
+p{
+    color: #472f02;
+    font-size: 30px;
+    font-family: "Times New Roman", serif;
+}
+li{
+    color: #472f02;
+    font-size: 30px;
+    font-family: "Times New Roman", serif;
+}
+.Container{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+}
+.profile-box{
+     width:80%;
+    background:rgb(255, 255, 255);
+align-items: left;
+    padding:40px;
+    text-align: left;
+    border-radius:15px;
+}
+.profile-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.profile{
+       display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.profile-photo img{
+    width:250px;
+    height:320px;
+    object-fit:cover;
+    border-radius:15px;
+}
+.profile-box{
+    flex:1;
+}
+.MY-LOGO{
+    display: flex;
+    justify-content: space-between;
+    OBJECT-FIT: cover;
+    BORDER-RADIUS: 10px;
+    
+}
