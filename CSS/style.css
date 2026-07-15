@@ -18,7 +18,7 @@ h2{
     font-size: 40px;
     text-align: Left;
     font-family: Zhoro;
-    underline: underline;
+    text-decoration: underline;
 }
 .Subtitle{
     color: #996a13;
@@ -50,44 +50,86 @@ li{
     font-family: "Times New Roman", serif;
 }
 .Container{
+
     width:80%;
     margin:40px auto;
     background:white;
     border-radius:20px;
     padding:40px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
-.profile-box{
-     width:80%;
-    background:rgb(255, 255, 255);
-align-items: left;
-    padding:40px;
-    text-align: left;
-    border-radius:15px;
-}
-.profile-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+
 .profile{
-       display:flex;
+
+    display:flex;
+
     justify-content:space-between;
+
     align-items:center;
 }
-.profile-photo img{
-    width:250px;
-    height:320px;
-    object-fit:cover;
-    border-radius:15px;
-}
+
 .profile-box{
+
     flex:1;
+
+    padding:40px;
+
+    border-left:8px solid #996a13;
 }
+
+.profile-photo img{
+
+    width:250px;
+
+    height:320px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    transition:.4s;
+}
+
+.profile-photo img:hover{
+
+    transform:scale(1.05);   
+}
+
 .MY-LOGO{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin-top: 40px;
+}
+
+.MY-LOGO img{
+    width: 450px;
+    height: auto;
+}
+
+.Impervious{
     display: flex;
     justify-content: space-between;
-    OBJECT-FIT: cover;
-    BORDER-RADIUS: 10px;
-    
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.Impervious-logo{
+    width: 250px;
+    height: auto;
+    transition: .4s;
+}
+
+.Impervious-logo:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+
+a{
+    transition:.3s;
+}
+a:hover{
+    color:996a13;
 }
