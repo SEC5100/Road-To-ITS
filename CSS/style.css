@@ -1,8 +1,17 @@
-@media (max-width:768px)
-
-.profile{
+@media (max-width:768px){
     flex-direction:column;
+    grid-template-columns:1fr;
+    .profile{
+    flex-direction:column;}
+    .profile-photo img{
+        width:180px;
+        height:auto;
 } 
+    h1{
+    font-size:32px;
+}
+}
+
 
 .back-to-top{
    position: fixed;
@@ -229,8 +238,24 @@ nav a:hover{
 
 .profile-photo img:hover{
 
-    transform:scale(1.05);   
-    cursor: pointer;
+    transform: scale(1.05);   
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:30px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
 }
 
 .MY-LOGO{
